@@ -11,11 +11,11 @@
     <button onclick = "score.wins = 0;score.loss = 0;score.Tie =0">Reset Score</button>
 
     <script>
-  let score = JSON. parse(localStorage.getItem('score')) || {
-        wins: 0, 
-        losses: 0,
-        ties: 0
-        };
+    let score = JSON. parse(localStorage.getItem('score')) || {
+          wins: 0, 
+          losses: 0,
+          ties: 0
+          };
 
       function playGame(playerMove) {
         const randomNumber = Math.random();
