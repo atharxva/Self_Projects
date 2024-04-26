@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced functions</title>
+</head>
+<body>
+    <script>
+        function greeting()
+        {
+            console.log("Hello")
+        }
+        const num  = 2;
+        const function1 = function greeting()
+        {
+            console.log("Hello2")
+        }
+        console.log(function1);
+        console.log(typeof function1)
+        function1()
+        const object = {num:2,func:function greeting(){console.log("hello")}}
+        object.func()
+
+        function display(param)
+        {
+            console.log(param)
+        }
+        // setInterval(function(){
+        //     console.log("Hello world")
+        // }, )
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elemetns</title>
+    <style>
+        #buttn{
+            width: 15vh;
+            height: 5vh;
+            border-radius: 20px;
+            background-color: red;
+            color: white;
+
+        }
+    </style>
+</head>
+<body>
+    <button id = "buttn" onclick="subscribe()">Subscribe</button>
+    <script>
+     function subscribe()
+        {
+            if(document.getElementById("buttn").innerHTML === "Subscribe")
+            {
+                document.getElementById("buttn").innerHTML = "Subscribed";
+            }
+            else
+            {
+                document.getElementById("buttn").innerHTML = "Subscribe";
+            }
+        }
+
+    </script>
+    
+</body>
+</html>
