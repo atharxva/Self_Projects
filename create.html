@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Createnode</title>
+</head>
+<body>
+    <div id = "div">
+        <p id ="p1">This is a paragraph</p>
+        <p id = "p2">This is another paragraph</p>
+        <h1>Hello world</h1>
+    </div>
+    <script>
+        const para = document.createElement("p");
+        const node = document.createTextNode("This is new");
+        para.appendChild(node);
+        const element = document.getElementById("div");
+        element.appendChild(para);
+        var object = {name:"Atharva",Age:18};
+    </script>
+</body>
+</html>
